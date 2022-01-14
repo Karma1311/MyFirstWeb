@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripció</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <h1 class="Inici"><img class="logo" src="images/itc.jpg" alt="ITC" width="50" > Instituts Tecnologics de Catalunya</h1>
+    <nav>
+        <ul>
+          <li><a href="Pagina.html">Inici</a></li>
+          <li><a href="CFGS.html">Cicles Superiors</a></li>
+          <li><a href="CFGM.html">Cicles Mitjans</a></li>
+          <li><a href="Centres.html">Centres</a></li>
+          <li><a href="Inscripcio.html">Inscripció</a></li>
+       </ul>
+      </nav>    
+</head>
+
+<body>
+<div>
+    <h2>Empleni els camps obligatoris</h2>
+    <form action="Inscripcio.html" method="post">
+    *Nom
+    <input type="text" name="nom" value="" placeholder="Nom" required/>
+    <br>
+    *Cognoms
+    <input type="text" name="cognoms" placeholder="Cognoms" required>
+    <br>
+    *Correu electronic
+    <input type="email" name="correu" id="" placeholder="@gmail.com">
+    <br>
+    Adreça
+    <input type="text" name="Adreça" id="">
+    <br>
+    Codi postal
+    <input type="text" name="CP">
+    <br>
+    <label for="msg">Informació Adicional</label>
+    <textarea name="comments" id="msg" cols="30" rows="10"></textarea>
+    <button type="submit">Envia</button>    
+</form>    
+</div>
+    
+</body>
+
+<footer><p class="footers">
+    Tel: 973 28 81 80
+    Fax: 973280195 <br>
+    ITCatalunya@xtec.cat
+</p>
+</footer>
+</html>
